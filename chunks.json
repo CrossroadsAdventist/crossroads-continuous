@@ -141,18 +141,21 @@
   "episodes": [
    27,
    28,
-   29
+   29,
+   30
   ],
   "titles": [
    "Between Two Homes",
    "Not Your Secret",
-   "What's Playing?"
+   "What's Playing?",
+   "Just Between Us"
   ],
   "starts": [
    0.0,
    1290.02,
-   2892.62
+   2892.62,
+   4295.16
   ],
-  "dur": 4295.16
+  "dur": 5961.8
  }
 ]
