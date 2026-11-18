@@ -1,0 +1,137 @@
+[
+ {
+  "file": "continuous-s1-part1.mp3",
+  "season": "s1",
+  "part": 1,
+  "episodes": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "titles": [
+   "Just One Sip",
+   "Five Finger Discount",
+   "Behind My Back",
+   "One Night Only",
+   "Crossing the Line",
+   "Don't Just Watch",
+   "Dressed to Impress"
+  ],
+  "starts": [
+   0.0,
+   1380.85,
+   2458.58,
+   3371.04,
+   4328.67,
+   5127.59,
+   5977.6
+  ],
+  "dur": 6999.72
+ },
+ {
+  "file": "continuous-s1-part2.mp3",
+  "season": "s1",
+  "part": 2,
+  "episodes": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "titles": [
+   "More Than a Number",
+   "Seen at Church",
+   "Church Face",
+   "What's in Your Lunch?",
+   "The Final Whistle",
+   "The Other Side of the Pew",
+   "All A's"
+  ],
+  "starts": [
+   0.0,
+   889.95,
+   2176.88,
+   3039.31,
+   3821.35,
+   4707.27,
+   5826.77
+  ],
+  "dur": 6834.19
+ },
+ {
+  "file": "continuous-s1-part3.mp3",
+  "season": "s1",
+  "part": 3,
+  "episodes": [
+   15,
+   16,
+   17,
+   18
+  ],
+  "titles": [
+   "The Algorithm",
+   "Still Welcome",
+   "Not My Church",
+   "Because I Said So"
+  ],
+  "starts": [
+   0.0,
+   1001.52,
+   2568.34,
+   4099.97
+  ],
+  "dur": 5664.16
+ },
+ {
+  "file": "continuous-s1-part4.mp3",
+  "season": "s1",
+  "part": 4,
+  "episodes": [
+   19,
+   20,
+   21
+  ],
+  "titles": [
+   "Where Were You, God?",
+   "The Better Revenge",
+   "Not Your Enemy"
+  ],
+  "starts": [
+   0.0,
+   2085.15,
+   3937.25
+  ],
+  "dur": 6069.18
+ },
+ {
+  "file": "continuous-s2-part1.mp3",
+  "season": "s2",
+  "part": 1,
+  "episodes": [
+   22,
+   23,
+   24,
+   25
+  ],
+  "titles": [
+   "Everybody Was Invited (Mini Movie)",
+   "The Thing in the Dark",
+   "The Replacement",
+   "Just One More Chance"
+  ],
+  "starts": [
+   0.0,
+   2500.1,
+   4607.2,
+   6277.2
+  ],
+  "dur": 7577.5
+ }
+]
