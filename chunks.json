@@ -133,5 +133,20 @@
    6277.2
   ],
   "dur": 7577.5
+ },
+ {
+  "file": "continuous-s2-part2.mp3",
+  "season": "s2",
+  "part": 2,
+  "episodes": [
+   27
+  ],
+  "titles": [
+   "Between Two Homes"
+  ],
+  "starts": [
+   0.0
+  ],
+  "dur": 1290.02
  }
 ]

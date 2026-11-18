@@ -55,6 +55,30 @@ for season in ["s1", "s2"]:
     # 7577 s, ~91 MB) as a single file instead of a 1h44m + 22m split.
     if len(chunks) == 2 and sum(sum(it["dur"] for it in ch) for ch in chunks) <= 7900.0:
         chunks = [chunks[0] + chunks[1]]
+    # APPEND-ONLY (Ep27): never re-split existing chunks. If chunks.json
+    # exists, keep its episode sets exactly; new episodes join the last
+    # chunk only if the rebuilt total stays <= 7900 s (~95 MB), else they
+    # become a new part file. Chunks whose episode set changed are
+    # re-encoded (the file-exists skip must not serve stale audio).
+    rebuild = set()
+    mf = OUT / "chunks.json"
+    if mf.exists():
+        ex = [c for c in json.loads(mf.read_text()) if c["season"] == season]
+        if ex:
+            pinned = [[it for it in items if it["n"] in c["episodes"]] for c in ex]
+            seen = {it["n"] for ch in pinned for it in ch}
+            new = [it for it in items if it["n"] not in seen]
+            if new:
+                last = pinned[-1]
+                if sum(it["dur"] for it in last) + sum(it["dur"] for it in new) <= 7900.0:
+                    pinned[-1] = last + new
+                else:
+                    pinned.append(new)
+            for j, ch in enumerate(pinned, 1):
+                old = ex[j - 1] if j - 1 < len(ex) else None
+                if old is None or [it["n"] for it in ch] != old["episodes"]:
+                    rebuild.add(f"continuous-{season}-part{j}.mp3")
+            chunks = pinned
     for i, ch in enumerate(chunks, 1):
         name = f"continuous-{season}-part{i}.mp3"
         out = OUT / name
@@ -65,7 +89,7 @@ for season in ["s1", "s2"]:
             starts.append(round(t, 2)); t += it["dur"]
         total = t
         print(f"== {name}: eps {[it['n'] for it in ch]} total {fmt(total)} ({total:.1f}s)", flush=True)
-        if not out.exists():
+        if not out.exists() or name in rebuild:
             r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0",
                                 "-i", str(lst), "-ar", "44100", "-ac", "2", "-b:a", "96k",
                                 str(out)], capture_output=True, text=True)
