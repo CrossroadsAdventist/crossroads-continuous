@@ -160,5 +160,20 @@
    5961.8
   ],
   "dur": 7056.83
+ },
+ {
+  "file": "continuous-s2-part3.mp3",
+  "season": "s2",
+  "part": 3,
+  "episodes": [
+   26
+  ],
+  "titles": [
+   "The Empty Chair"
+  ],
+  "starts": [
+   0.0
+  ],
+  "dur": 1159.76
  }
 ]
