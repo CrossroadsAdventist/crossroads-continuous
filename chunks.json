@@ -139,14 +139,17 @@
   "season": "s2",
   "part": 2,
   "episodes": [
-   27
+   27,
+   28
   ],
   "titles": [
-   "Between Two Homes"
+   "Between Two Homes",
+   "Not Your Secret"
   ],
   "starts": [
-   0.0
+   0.0,
+   1290.02
   ],
-  "dur": 1290.02
+  "dur": 2892.62
  }
 ]
