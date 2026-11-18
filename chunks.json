@@ -140,16 +140,19 @@
   "part": 2,
   "episodes": [
    27,
-   28
+   28,
+   29
   ],
   "titles": [
    "Between Two Homes",
-   "Not Your Secret"
+   "Not Your Secret",
+   "What's Playing?"
   ],
   "starts": [
    0.0,
-   1290.02
+   1290.02,
+   2892.62
   ],
-  "dur": 2892.62
+  "dur": 4295.16
  }
 ]
