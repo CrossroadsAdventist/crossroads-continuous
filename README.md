@@ -43,8 +43,8 @@ screen as each episode starts inside a chunk (see `chunks.json`).
    page, and the combined page via `player-deploy-all/build_combined.py`).
    The players' 5-minute `chunks.json` poll picks up the new list on its
    own, but the embedded list is what a freshly loaded page uses.
-4. Rebuild command (from `~/workspace/crossroads`):
-   `python3 /tmp/build_chunks.py` — it re-encodes only missing chunks
-   and rewrites `chunks.json`. Verify each rebuilt chunk (duration,
-   size, 44.1 kHz) and spot-transcribe its first 30 seconds before
-   pushing.
+4. Rebuild command (from anywhere — paths in the script are absolute):
+   `python3 build_chunks.py` (the script lives in this repo).
+   It re-encodes only missing chunks and rewrites `chunks.json`. Verify
+   each rebuilt chunk (duration, size, 44.1 kHz) and spot-transcribe its
+   first 30 seconds before pushing.
