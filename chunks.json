@@ -167,16 +167,19 @@
   "part": 3,
   "episodes": [
    26,
-   32
+   32,
+   33
   ],
   "titles": [
    "The Empty Chair",
-   "The Screenshot"
+   "The Screenshot",
+   "The Game He Couldn't Play"
   ],
   "starts": [
    0.0,
-   1161.61
+   1161.61,
+   2669.89
   ],
-  "dur": 2669.89
+  "dur": 4505.22
  }
 ]
