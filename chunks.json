@@ -166,14 +166,17 @@
   "season": "s2",
   "part": 3,
   "episodes": [
-   26
+   26,
+   32
   ],
   "titles": [
-   "The Empty Chair"
+   "The Empty Chair",
+   "The Screenshot"
   ],
   "starts": [
-   0.0
+   0.0,
+   1161.61
   ],
-  "dur": 1159.76
+  "dur": 2669.89
  }
 ]
