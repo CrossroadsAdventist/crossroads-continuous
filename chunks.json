@@ -142,20 +142,23 @@
    27,
    28,
    29,
-   30
+   30,
+   31
   ],
   "titles": [
    "Between Two Homes",
    "Not Your Secret",
    "What's Playing?",
-   "Just Between Us"
+   "Just Between Us",
+   "When Heaven Is Quiet"
   ],
   "starts": [
    0.0,
    1290.02,
    2892.62,
-   4295.16
+   4295.16,
+   5961.8
   ],
-  "dur": 5961.8
+  "dur": 7056.83
  }
 ]
