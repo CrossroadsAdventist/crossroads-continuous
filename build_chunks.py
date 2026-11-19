@@ -69,11 +69,16 @@ for season in ["s1", "s2"]:
             seen = {it["n"] for ch in pinned for it in ch}
             new = [it for it in items if it["n"] not in seen]
             if new:
-                last = pinned[-1]
-                if sum(it["dur"] for it in last) + sum(it["dur"] for it in new) <= 7900.0:
-                    pinned[-1] = last + new
-                else:
-                    pinned.append(new)
+                # Greedy fill (batch chain, 2026-11-19): episodes join the
+                # last chunk one at a time while the rebuilt total stays
+                # <= 7900 s; the first episode that would overflow starts
+                # a new part file (and later episodes fill that one).
+                for it in new:
+                    last = pinned[-1]
+                    if sum(x["dur"] for x in last) + it["dur"] <= 7900.0:
+                        last.append(it)
+                    else:
+                        pinned.append([it])
             for j, ch in enumerate(pinned, 1):
                 old = ex[j - 1] if j - 1 < len(ex) else None
                 if old is None or [it["n"] for it in ch] != old["episodes"]:

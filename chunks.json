@@ -214,17 +214,47 @@
   "season": "s2",
   "part": 5,
   "episodes": [
+   41,
    47,
-   41
+   35,
+   36,
+   42
   ],
   "titles": [
+   "Where Do I Belong?",
    "Boys Will Be Boys",
-   "Where Do I Belong?"
+   "You're Not Invited",
+   "God Told Me You're The One",
+   "The Pastor's Favourite"
   ],
   "starts": [
    0.0,
-   1426.5
+   1238.0,
+   2664.5,
+   3996.24,
+   5237.86
   ],
-  "dur": 2664.5
+  "dur": 6807.66
+ },
+ {
+  "file": "continuous-s2-part6.mp3",
+  "season": "s2",
+  "part": 6,
+  "episodes": [
+   43,
+   44,
+   45
+  ],
+  "titles": [
+   "Sabbath Double Life",
+   "I Don't Feel Forgiven",
+   "Man Up"
+  ],
+  "starts": [
+   0.0,
+   1513.31,
+   2870.61
+  ],
+  "dur": 4221.73
  }
 ]
