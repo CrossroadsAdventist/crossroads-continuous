@@ -190,20 +190,23 @@
    34,
    37,
    39,
-   40
+   40,
+   46
   ],
   "titles": [
    "When No One Is Watching",
    "Not Pretty Enough",
    "The Perfect Picture",
-   "The Empty Pew"
+   "The Empty Pew",
+   "The Rumour Wasn't True"
   ],
   "starts": [
    0.0,
    1890.12,
    3453.52,
-   4419.05
+   4419.05,
+   5936.89
   ],
-  "dur": 5936.89
+  "dur": 7438.22
  }
 ]
