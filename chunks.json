@@ -214,25 +214,25 @@
   "season": "s2",
   "part": 5,
   "episodes": [
-   41,
-   47,
    35,
    36,
-   42
+   41,
+   42,
+   47
   ],
   "titles": [
-   "Where Do I Belong?",
-   "Boys Will Be Boys",
    "You're Not Invited",
    "God Told Me You're The One",
-   "The Pastor's Favourite"
+   "Where Do I Belong?",
+   "The Pastor's Favourite",
+   "Boys Will Be Boys"
   ],
   "starts": [
    0.0,
-   1238.0,
-   2664.5,
-   3996.24,
-   5237.86
+   1331.74,
+   2573.36,
+   3811.36,
+   5381.16
   ],
   "dur": 6807.66
  },
@@ -252,9 +252,9 @@
   ],
   "starts": [
    0.0,
-   1513.31,
-   2870.61
+   1519.21,
+   2876.51
   ],
-  "dur": 4221.73
+  "dur": 4227.63
  }
 ]
