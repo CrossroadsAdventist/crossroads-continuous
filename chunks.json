@@ -106,9 +106,9 @@
   "starts": [
    0.0,
    2085.15,
-   3937.25
+   3937.05
   ],
-  "dur": 6069.18
+  "dur": 6068.98
  },
  {
   "file": "continuous-s2-part1.mp3",
@@ -188,22 +188,22 @@
   "part": 4,
   "episodes": [
    34,
+   37,
    39,
-   40,
-   37
+   40
   ],
   "titles": [
    "When No One Is Watching",
+   "Not Pretty Enough",
    "The Perfect Picture",
-   "The Empty Pew",
-   "Not Pretty Enough"
+   "The Empty Pew"
   ],
   "starts": [
    0.0,
    1890.12,
-   2855.65,
-   4373.49
+   3453.52,
+   4419.05
   ],
-  "dur": 5936.98
+  "dur": 5936.89
  }
 ]
