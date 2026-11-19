@@ -181,5 +181,26 @@
    2669.89
   ],
   "dur": 4504.27
+ },
+ {
+  "file": "continuous-s2-part4.mp3",
+  "season": "s2",
+  "part": 4,
+  "episodes": [
+   34,
+   39,
+   40
+  ],
+  "titles": [
+   "When No One Is Watching",
+   "The Perfect Picture",
+   "The Empty Pew"
+  ],
+  "starts": [
+   0.0,
+   1890.12,
+   2855.65
+  ],
+  "dur": 4373.49
  }
 ]
