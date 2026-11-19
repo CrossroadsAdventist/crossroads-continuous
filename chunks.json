@@ -208,5 +208,20 @@
    5936.89
   ],
   "dur": 7438.22
+ },
+ {
+  "file": "continuous-s2-part5.mp3",
+  "season": "s2",
+  "part": 5,
+  "episodes": [
+   47
+  ],
+  "titles": [
+   "Boys Will Be Boys"
+  ],
+  "starts": [
+   0.0
+  ],
+  "dur": 1426.5
  }
 ]
