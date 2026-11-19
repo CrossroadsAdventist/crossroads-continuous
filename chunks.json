@@ -189,18 +189,21 @@
   "episodes": [
    34,
    39,
-   40
+   40,
+   37
   ],
   "titles": [
    "When No One Is Watching",
    "The Perfect Picture",
-   "The Empty Pew"
+   "The Empty Pew",
+   "Not Pretty Enough"
   ],
   "starts": [
    0.0,
    1890.12,
-   2855.65
+   2855.65,
+   4373.49
   ],
-  "dur": 4373.49
+  "dur": 5936.98
  }
 ]
