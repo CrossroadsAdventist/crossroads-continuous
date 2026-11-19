@@ -243,18 +243,24 @@
   "episodes": [
    43,
    44,
-   45
+   45,
+   38,
+   48
   ],
   "titles": [
    "Sabbath Double Life",
    "I Don't Feel Forgiven",
-   "Man Up"
+   "Man Up",
+   "Beyond the Screen",
+   "The Face in the Mirror"
   ],
   "starts": [
    0.0,
    1565.6,
-   2917.72
+   2917.72,
+   4268.85,
+   6087.23
   ],
-  "dur": 4268.85
+  "dur": 7890.4
  }
 ]
