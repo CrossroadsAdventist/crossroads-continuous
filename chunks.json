@@ -262,5 +262,23 @@
    6087.23
   ],
   "dur": 7890.4
+ },
+ {
+  "file": "continuous-s2-part7.mp3",
+  "season": "s2",
+  "part": 7,
+  "episodes": [
+   49,
+   50
+  ],
+  "titles": [
+   "The Road Ahead",
+   "The Open Door"
+  ],
+  "starts": [
+   0.0,
+   1033.62
+  ],
+  "dur": 1878.52
  }
 ]

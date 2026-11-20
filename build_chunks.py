@@ -65,7 +65,7 @@ for season in ["s1", "s2"]:
     if mf.exists():
         ex = [c for c in json.loads(mf.read_text()) if c["season"] == season]
         if ex:
-            pinned = [[it for it in items if it["n"] in c["episodes"]] for c in ex]
+            pinned = [[next(it for it in items if it["n"] == n) for n in c["episodes"]] for c in ex]
             seen = {it["n"] for ch in pinned for it in ch}
             new = [it for it in items if it["n"] not in seen]
             if new:
