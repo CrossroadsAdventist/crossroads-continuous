@@ -259,9 +259,9 @@
    1565.6,
    2917.72,
    4265.82,
-   6084.21
+   6142.31
   ],
-  "dur": 7863.83
+  "dur": 7921.93
  },
  {
   "file": "continuous-s2-part7.mp3",
@@ -269,16 +269,22 @@
   "part": 7,
   "episodes": [
    49,
-   50
+   50,
+   51,
+   52
   ],
   "titles": [
    "The Road Ahead",
-   "The Open Door"
+   "The Open Door",
+   "The Words Between Us",
+   "Ready to Say Yes"
   ],
   "starts": [
    0.0,
-   1033.62
+   1033.62,
+   1878.52,
+   3243.68
   ],
-  "dur": 1878.52
+  "dur": 4767.28
  }
 ]
