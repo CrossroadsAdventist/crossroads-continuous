@@ -259,9 +259,9 @@
    1565.6,
    2917.72,
    4265.82,
-   6142.31
+   6139.74
   ],
-  "dur": 7921.93
+  "dur": 7919.36
  },
  {
   "file": "continuous-s2-part7.mp3",
@@ -272,22 +272,25 @@
    50,
    51,
    52,
-   53
+   53,
+   54
   ],
   "titles": [
    "The Road Ahead",
    "The Open Door",
    "The Words Between Us",
    "Ready to Say Yes",
-   "Slow to Anger"
+   "Slow to Anger",
+   "A Seat at the Table"
   ],
   "starts": [
    0.0,
    1026.05,
    1911.42,
    3276.58,
-   4874.61
+   4874.61,
+   5975.76
   ],
-  "dur": 5975.76
+  "dur": 7579.33
  }
 ]
