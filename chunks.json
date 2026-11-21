@@ -271,20 +271,23 @@
    49,
    50,
    51,
-   52
+   52,
+   53
   ],
   "titles": [
    "The Road Ahead",
    "The Open Door",
    "The Words Between Us",
-   "Ready to Say Yes"
+   "Ready to Say Yes",
+   "Slow to Anger"
   ],
   "starts": [
    0.0,
    1026.05,
    1911.42,
-   3276.58
+   3276.58,
+   4874.61
   ],
-  "dur": 4874.61
+  "dur": 5975.76
  }
 ]
