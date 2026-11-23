@@ -286,12 +286,12 @@
   "starts": [
    0.0,
    1026.71,
-   1907.82,
-   3272.99,
-   4876.15,
-   5956.1
+   1855.47,
+   3220.63,
+   4823.8,
+   5903.74
   ],
-  "dur": 7559.67
+  "dur": 7507.31
  },
  {
   "file": "continuous-s2-part8.mp3",
@@ -299,16 +299,19 @@
   "part": 8,
   "episodes": [
    55,
-   56
+   56,
+   57
   ],
   "titles": [
    "Still My Grandma",
-   "Clocked In"
+   "Clocked In",
+   "Miles Apart, Still Friends"
   ],
   "starts": [
    0.0,
-   1087.88
+   1087.88,
+   3033.36
   ],
-  "dur": 3033.36
+  "dur": 4126.62
  }
 ]
