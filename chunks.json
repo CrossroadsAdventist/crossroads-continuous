@@ -301,20 +301,23 @@
    55,
    56,
    57,
-   58
+   58,
+   59
   ],
   "titles": [
    "Still My Grandma",
    "Clocked In",
    "Miles Apart, Still Friends",
-   "The Echo We Leave"
+   "The Echo We Leave",
+   "The Song Behind the Door"
   ],
   "starts": [
    0.0,
    1087.88,
    3033.36,
-   4126.04
+   4124.37,
+   5769.13
   ],
-  "dur": 5770.8
+  "dur": 7180.75
  }
 ]
