@@ -319,5 +319,23 @@
    5769.13
   ],
   "dur": 7180.75
+ },
+ {
+  "file": "continuous-s2-part9.mp3",
+  "season": "s2",
+  "part": 9,
+  "episodes": [
+   60,
+   61
+  ],
+  "titles": [
+   "When Attention Isn't Love",
+   "The Name on the Box"
+  ],
+  "starts": [
+   0.0,
+   1163.46
+  ],
+  "dur": 2858.11
  }
 ]
