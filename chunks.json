@@ -343,5 +343,20 @@
    4205.94
   ],
   "dur": 7233.48
+ },
+ {
+  "file": "continuous-s2-part10.mp3",
+  "season": "s2",
+  "part": 10,
+  "episodes": [
+   64
+  ],
+  "titles": [
+   "The Field Trip"
+  ],
+  "starts": [
+   0.0
+  ],
+  "dur": 1180.33
  }
 ]
