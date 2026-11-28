@@ -327,18 +327,21 @@
   "episodes": [
    60,
    61,
-   62
+   62,
+   63
   ],
   "titles": [
    "When Attention Isn't Love",
    "The Name on the Box",
-   "Room for One More"
+   "Room for One More",
+   "My Adopted Sister Was Jealous of My Perfect Life!"
   ],
   "starts": [
    0.0,
    1163.46,
-   2858.11
+   2858.11,
+   4205.94
   ],
-  "dur": 4205.94
+  "dur": 7233.48
  }
 ]
